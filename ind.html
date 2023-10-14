@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="wordle.css">
+    <script src="wordle.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+</head>
+<body>
+    <div class="wordle-game">
+        <h1>Wordle Game</h1>
+
+        
+        <div class="gameboard">
+            <div class="lrow">
+            <div class="letterbox0"></div>
+            <div class="letterbox0"></div>
+            <div class="letterbox0"></div>
+            <div class="letterbox0"></div>
+            <div class="letterbox0"></div>
+            </div>
+            <div class="lrow">
+            <div class="letterbox1"></div>
+            <div class="letterbox1"></div>
+            <div class="letterbox1"></div>
+            <div class="letterbox1"></div>
+            <div class="letterbox1"></div>
+            </div>
+            <div class="lrow">
+            <div class="letterbox2"></div>
+            <div class="letterbox2"></div>
+            <div class="letterbox2"></div>
+            <div class="letterbox2"></div>
+            <div class="letterbox2"></div>
+            </div>
+            <div class="lrow">
+            <div class="letterbox3"></div>
+            <div class="letterbox3"></div>
+            <div class="letterbox3"></div>
+            <div class="letterbox3"></div>
+            <div class="letterbox3"></div>
+            </div>
+            <div class="lrow">
+            <div class="letterbox4"></div>
+            <div class="letterbox4"></div>
+            <div class="letterbox4"></div>
+            <div class="letterbox4"></div>
+            <div class="letterbox4"></div>
+            </div>
+            <div class="lrow">
+            <div class="letterbox5"></div>
+            <div class="letterbox5"></div>
+            <div class="letterbox5"></div>
+            <div class="letterbox5"></div>
+            <div class="letterbox5"></div>
+            </div>
+            <br> 
+
+            </div>
+
+            
+
+
+        </div>
+
+        
+        <div class="keyboard"> 
+            <div class="first-row">
+                <button class="keyboard-button" onclick="handleKey('q')">q</button>
+                <button class="keyboard-button" onclick="handleKey('w')">w</button>
+                <button class="keyboard-button" onclick="handleKey('e')">e</button>
+                <button class="keyboard-button" onclick="handleKey('r')">r</button>
+                <button class="keyboard-button" onclick="handleKey('t')">t</button>
+                <button class="keyboard-button" onclick="handleKey('y')">y</button>
+                <button class="keyboard-button" onclick="handleKey('u')">u</button>
+                <button class="keyboard-button" onclick="handleKey('i')">i</button>
+                <button class="keyboard-button" onclick="handleKey('o')">o</button>
+                <button class="keyboard-button" onclick="handleKey('p')">p</button>
+            </div>
+            <div class="second-row">
+                <button class="keyboard-button" onclick="handleKey('a')">a</button>
+                <button class="keyboard-button" onclick="handleKey('s')">s</button>
+                <button class="keyboard-button" onclick="handleKey('d')">d</button>
+                <button class="keyboard-button" onclick="handleKey('f')">f</button>
+                <button class="keyboard-button" onclick="handleKey('g')">g</button>
+                <button class="keyboard-button" onclick="handleKey('h')">h</button>
+                <button class="keyboard-button" onclick="handleKey('j')">j</button>
+                <button class="keyboard-button" onclick="handleKey('k')">k</button>
+                <button class="keyboard-button" onclick="handleKey('l')">l</button>
+            </div>
+            <div class="third-row">
+                <button class="keyboard-button" onclick="handleDelete()">Del</button>
+                <button class="keyboard-button" onclick="handleKey('z')">z</button>
+                <button class="keyboard-button" onclick="handleKey('x')">x</button>
+                <button class="keyboard-button" onclick="handleKey('c')">c</button>
+                <button class="keyboard-button" onclick="handleKey('v')">v</button>
+                <button class="keyboard-button" onclick="handleKey('b')">b</button>
+                <button class="keyboard-button" onclick="handleKey('n')">n</button>
+                <button class="keyboard-button" onclick="handleKey('m')">m</button>
+                <button class="keyboard-button" onclick="handleEnter()">Enter</button>
+            </div>
+        </div>
+       
