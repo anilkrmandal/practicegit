@@ -1,0 +1,42 @@
+digraph auto {
+	graph [bgcolor=transparent]
+	node [fixedsize=true style=filled width=0.95]
+	b40cc2f7afc4e87e2d65b20cc299fdf1fb2e476e [label=b40cc2f fillcolor="#9ccc66"]
+	c621ea5fb973b4739490ffed70aebef958e5524d [label=c621ea5 fillcolor="#9ccc66"]
+	d11a038146cb93a09b410ce0dcb9797ba83ca300 [label=d11a038 fillcolor="#9ccc66"]
+	"7ddb913dec0cd767d557117b192c5b228f11a520" [label="7ddb913" fillcolor="#bc9b8f"]
+	"7ddb913dec0cd767d557117b192c5b228f11a520" -> d11a038146cb93a09b410ce0dcb9797ba83ca300
+	a8258b18f2cc2948dd9f6bf156ab47c28c1250a6 [label=a8258b1 fillcolor="#bc9b8f"]
+	a8258b18f2cc2948dd9f6bf156ab47c28c1250a6 -> d11a038146cb93a09b410ce0dcb9797ba83ca300
+	a8258b18f2cc2948dd9f6bf156ab47c28c1250a6 -> c621ea5fb973b4739490ffed70aebef958e5524d
+	ced492f512dd449e5d929657b099d43485c54eb4 [label=ced492f fillcolor="#bc9b8f"]
+	ced492f512dd449e5d929657b099d43485c54eb4 -> d11a038146cb93a09b410ce0dcb9797ba83ca300
+	ced492f512dd449e5d929657b099d43485c54eb4 -> b40cc2f7afc4e87e2d65b20cc299fdf1fb2e476e
+	"006cdb46f44fb9d7b02b0bb6a9a8272baef2cdad" [label="006cdb4" fillcolor="#85d5fa"]
+	"006cdb46f44fb9d7b02b0bb6a9a8272baef2cdad" -> a8258b18f2cc2948dd9f6bf156ab47c28c1250a6
+	"006cdb46f44fb9d7b02b0bb6a9a8272baef2cdad" -> "1b83daef2b5f9f86ee3894ec3ed0e7713b954e48"
+	"006cdb46f44fb9d7b02b0bb6a9a8272baef2cdad" -> "01de7f725cd8f0ec6495ff59a2df78ec6617b6a3"
+	"01de7f725cd8f0ec6495ff59a2df78ec6617b6a3" [label="01de7f7" fillcolor="#85d5fa"]
+	"01de7f725cd8f0ec6495ff59a2df78ec6617b6a3" -> ced492f512dd449e5d929657b099d43485c54eb4
+	"01de7f725cd8f0ec6495ff59a2df78ec6617b6a3" -> "1b83daef2b5f9f86ee3894ec3ed0e7713b954e48"
+	"1b83daef2b5f9f86ee3894ec3ed0e7713b954e48" [label="1b83dae" fillcolor="#85d5fa"]
+	"1b83daef2b5f9f86ee3894ec3ed0e7713b954e48" -> ced492f512dd449e5d929657b099d43485c54eb4
+	"1b83daef2b5f9f86ee3894ec3ed0e7713b954e48" -> b9c7ec3e2f7203faec06685b3f343ab82773f341
+	"51193e4c2d6dc5419dec3228f451a55dedf434ad" [label="51193e4" fillcolor="#85d5fa"]
+	"51193e4c2d6dc5419dec3228f451a55dedf434ad" -> "7ddb913dec0cd767d557117b192c5b228f11a520"
+	"51193e4c2d6dc5419dec3228f451a55dedf434ad" -> "1b83daef2b5f9f86ee3894ec3ed0e7713b954e48"
+	b9c7ec3e2f7203faec06685b3f343ab82773f341 [label=b9c7ec3 fillcolor="#85d5fa"]
+	b9c7ec3e2f7203faec06685b3f343ab82773f341 -> "7ddb913dec0cd767d557117b192c5b228f11a520"
+	main [label=main fillcolor="#9999ff"]
+	main -> "51193e4c2d6dc5419dec3228f451a55dedf434ad"
+	HEAD [label=HEAD fillcolor="#e6ccff"]
+	HEAD -> main
+	"origin/main" [label=main fillcolor="#ffa366"]
+	"origin/main" -> "1b83daef2b5f9f86ee3894ec3ed0e7713b954e48"
+	"origin/HEAD" [label=HEAD fillcolor="#ffbeb3"]
+	"origin/HEAD" -> "origin/main"
+	origin [label=origin fillcolor="#ff6666"]
+	origin -> "origin/main"
+	origin -> "origin/HEAD"
+	"origin/main" -> main
+}
