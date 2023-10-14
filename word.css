@@ -1,0 +1,80 @@
+
+
+body{
+    background-color: white;
+}
+
+.wordle-game {
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+    width: 50%;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .gameboard {
+    align-content: center;
+   align-items: center;
+   justify-content: center;
+  padding-top: 10px;
+  margin-left: 33%;
+  padding-left: 0%;
+  }
+  
+  .letterbox0,.letterbox1,.letterbox2,.letterbox3,.letterbox4,.letterbox5 {
+    border: 2px solid gray;
+    border-radius: 3px;
+   margin-left: 5px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+
+  
+  .filled-box {
+    border: 2px solid black;
+  }
+  
+  .lrow {
+    display: flex;
+    
+  }
+
+  #keyboardc {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #keyboardc div {
+    display: flex;
+  }
+  
+  .second-row {
+    margin: 0.5rem 0;
+  }
+  
+  .keyboard-button {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    margin: 0 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .keyboard {
+    margin-left: 400px;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
